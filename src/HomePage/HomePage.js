@@ -66,9 +66,10 @@ function HomePage() {
     <article>
         <h1>Chart</h1>
         <p>
-            <canvas id="myChart" width="400" height="400"></canvas>
+            <canvas id="myChart" ></canvas>
         </p>
     </article>
+
     <figure>
 
             <img src="/pic.jpg" alt=" depicts the coins being added into a jar" style={{width:'30%'}} />
@@ -84,6 +85,9 @@ function HomePage() {
 
   <input type="button" value="Submit" />
   </form>
+
+  
+  
 
  
 

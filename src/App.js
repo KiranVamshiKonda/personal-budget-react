@@ -1,6 +1,9 @@
 import React from 'react';
 
-import './App.css';
+
+import './App.scss';
+
+
 
 import {
   BrowserRouter as Router,
@@ -14,6 +17,9 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import Axios from './Axios/Axios';
+import D3chart from './Axios/D3chart.js';
+
 
 function App() {
   return (
@@ -30,9 +36,17 @@ function App() {
          </Route>
          <Route path = "/">
            <HomePage/>
-         </Route>
+           <Axios/>
+           <D3chart/>
+          </Route> 
        </Switch>
+       
+       
      </div>
+     
+     
+     
+     
      <Footer/>
     </Router>
   );
